@@ -9,13 +9,13 @@ EDA
 
 - Created concatenated data frame based on the trained and the test data given - we did so for increasing the statistical power of our pre-processing analysis.
 
--observed for each feature whether it contain null values
+- Observed for each feature whether it contain null values
 
--Excluding highly correlated features( eliminating one of the features that correlated the other feature if the spearman correlation result is correlated in more than 90 %) to benefit the learning process.
+- Excluding highly correlated features( eliminating one of the features that correlated the other feature if the spearman correlation result is correlated in more than 90 %) to benefit the learning process.
 
--Removed low variance feature to effeiently affect the learning proccess.
+- Removing low variance feature to effeiently affect the learning proccess.
 
--Standard transformation of the data, since it is highly recomended to transform the data when using XGBoost.
+- Standard transformation of the data, since it is highly recomended to transform the data when using XGBoost.
 
 After the EDA was finished , the data was splitted for training and validation.I have tried using also deepchem splitting according to te chemical scaffold yet it didnt work well as random splitting
 
